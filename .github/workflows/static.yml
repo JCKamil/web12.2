@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Build with Vite
-        run: npm run build -- --base=/NAZWA-REPOZYTORIUM/
+        run: npm run build -- --base=/web12.2/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
